@@ -1,0 +1,237 @@
+:root{
+    --COLOR1: #08B088;
+    --COLOR2: #222222;
+    --COLOR3:#464646;
+
+}
+p{
+    color: var(--COLOR3);
+}
+
+@font-face {
+    font-family: "Anek Tamil", sans-serif;
+    src: url(fonts/AnekTamil-VariableFont_wdth\,wght.ttf);
+}
+body {
+    font-family: "Anek Tamil", sans-serif;
+}
+#logo{
+    height: 25px;
+    position: relative;
+    top: 25px;
+    margin-left: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.linea-verde {
+    height: 75px;
+    background-color: var(--COLOR1);
+    width: 100%;
+    position: relative;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.linea-verde nav a:hover{
+    color: var(--COLOR2);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.sidebar {
+    flex: 0 0 30%;
+    max-width: 37%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.informacion {
+    margin-top: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    flex: 0 0 calc(30% - 20px); 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.registro-form {
+    flex: 0 0 50%;
+    max-width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--COLOR1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--COLOR1);
+}
+
+footer {
+    background-color: var(--COLOR2);
+    padding: 2em 0;
+    position: relative;
+    width: 100%;
+    }
+    
+    .contenedorfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1em;
+    }
+    
+    .footer-izquierda {
+    display: flex;
+    align-items: center;
+    }
+    
+    .columna {
+    text-align: left;
+    margin-left: 2em;
+    }
+    
+    .titulo {
+    color: var(--COLOR1);
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    }
+    .footerderechos{
+    color: var(--COLOR1);
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    
+    }
+    .texto {
+    color: var(--COLOR3);
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    }
+    
+    .footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+    
+    .footer-form input {
+    background-color: var(--COLOR3);
+    border: none;
+    color: var(--COLOR2);
+    padding: 0.5em 1em;
+    width: 90%;
+    }
+    
+    .footer-form button {
+    background-color: var(--COLOR1);
+    border: none;
+    color: var(--COLOR4);
+    padding: 0.5em 1em;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+    .footer-form button:hover{
+    color: var(--COLOR2);
+    background-color: var(--COLOR4);
+    }
+    #logo-footer {
+    height: 26px;
+    position: relative;
+    top: 25px;
+    margin-bottom: 20px;
+    }
+.sidebar-content {
+    display: flex;
+    align-items: center; 
+}
+
+.sidebar-content img {
+    flex: 0 0 30%; 
+    margin-right: 20px; 
+}
+
+.sidebar-content p {
+    flex: 0 0 70%; 
+}
+.parrafo{
+    margin-left: 20px;
+
+}
+.Verde{
+    color: var(--COLOR1);
+}
